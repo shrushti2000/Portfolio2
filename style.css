@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Crimson+Pro:ital,wght@1,200&family=Dancing+Script&family=EB+Garamond&family=Great+Vibes&family=Spectral:ital,wght@1,200&family=Tangerine:wght@400;700&family=Tinos&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Crimson+Pro:ital,wght@1,200&family=Dancing+Script&family=EB+Garamond&family=Great+Vibes&family=Spectral:ital,wght@1,200&family=Tangerine:wght@400;700&family=Tinos&family=Crimson+Text&display=swap");
 
 /**
 font-family: 'Alegreya Sans', sans-serif;
@@ -93,6 +93,7 @@ body {
     width: 100%;
     background-color: white;
     border-radius: 1rem;
+    margin: 0.05rem 0;
 }
 
 .hero-image {
@@ -103,25 +104,27 @@ body {
 
 .continer-introduction {
     font-family: "Tangerine", cursive;
-    font-size: 6rem;
+    font-size: 8rem;
     color: var(--gray);
 }
 
 .sub-intro {
     font-size: 3rem;
     font-family: "Alegreya Sans", sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Crimson Pro', serif;
+    font-family: 'Crimson Text', serif;
+    color: var(--gray);
 }
 
 #skills {
     font-size: 3rem;
+    margin-top: 0;
+    background-color: #E9E9E9;
 }
 
-.skill-list {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: var(--dark-gray);
-    font-family: 'Spectral', serif;
-    font-family: 'Alegreya Sans', sans-serif;
-    font-weight: 500;
+.skill-container {
+    padding-bottom: 2rem;
 }
 
 #main-project-container {
@@ -144,6 +147,7 @@ body {
     color: var(--dark-gray);
     font-family: "EB Garamond", serif;
     margin-bottom: 0;
+    text-decoration: underline;
 }
 
 .proj-heading {
@@ -167,7 +171,7 @@ body {
 /** blogs css**/
 
 #main-blog-container {
-    background-color: white;
+    background-color: #E9E9E9;
 }
 
 .project-page-main-container {
@@ -210,7 +214,7 @@ body {
 .proj-para {
     font-size: 2rem;
     font-family: "Alegreya Sans", sans-serif;
-    color: var(--dark-gray);
+    color: black;
 }
 
 .proj-link-primary {
@@ -333,6 +337,7 @@ a:hover {
     }
     .header-title {
         font-size: 3rem;
+        margin: 1rem;
     }
     .navbar {
         flex-direction: column;
@@ -340,6 +345,7 @@ a:hover {
     }
     .toggle-button {
         display: flex;
+        margin: 0.5rem 0;
     }
     .navbar-links {
         display: none;
